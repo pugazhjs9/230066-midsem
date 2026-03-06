@@ -1,0 +1,149 @@
+{
+  "student_metadata": {
+    "name": "Pugazhendhi J",
+    "roll_number": "230066",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 2.2",
+    "submission_date": "2026-03-07"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 2.2",
+      "purpose": "Understanding how sparse SVM models perform feature selection",
+      "prompt": "Explain how L1 regularization in SVM leads to feature selection.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The explanation was rewritten and included in markdown to describe how L1 regularization produces sparse weights.",
+      "how_it_helped": "Helped clarify the relationship between sparsity and feature selection in SVM models.",
+      "student_verification": "Concepts were verified by reviewing the optimization objective described in the paper.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 2,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 2.2",
+      "purpose": "Selecting an implementation approach for sparse SVM",
+      "prompt": "How can sparse SVM behaviour be implemented using sklearn for a reproduction experiment?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The suggested approach was implemented using LinearSVC with L1 penalty and dual=False.",
+      "how_it_helped": "Helped choose a practical implementation for demonstrating sparse weight behaviour.",
+      "student_verification": "The implementation was checked against sklearn documentation to confirm correct usage.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 3,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 2.2",
+      "purpose": "Analyzing the learned weight vector of the trained model",
+      "prompt": "How can I inspect the weight vector of a trained SVM model to measure sparsity?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Additional code was added to count zero and non-zero weights and compute sparsity ratio.",
+      "how_it_helped": "Helped quantify the amount of feature selection performed by the model.",
+      "student_verification": "Results were verified by printing the number of zero weights and confirming sparsity behaviour.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 4,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 2.2",
+      "purpose": "Visualizing feature importance from the learned weight vector",
+      "prompt": "How can I visualize feature importance using the SVM weight vector?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "A bar plot was created showing the top features ranked by absolute weight magnitude.",
+      "how_it_helped": "Helped visually demonstrate which features are most important for classification.",
+      "student_verification": "Verified that the visualization corresponds to the absolute magnitude of the model weights.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 5,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 2.2",
+      "purpose": "Evaluating preliminary model performance",
+      "prompt": "What quick evaluation metric can be used to check if the trained SVM model performs correctly?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Accuracy was computed on the test dataset as a preliminary evaluation metric.",
+      "how_it_helped": "Helped verify that the trained sparse SVM model performs well on the classification task.",
+      "student_verification": "Accuracy results were checked to ensure they are within a reasonable range for this dataset.",
+      "confidence_level": 4
+    }
+
+  ],
+
+  "top_5_prompts": [
+
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Explain how L1 regularization in SVM leads to feature selection.",
+      "why_important": "Helped understand the theoretical foundation of sparse SVM models."
+    },
+
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "How can sparse SVM behaviour be implemented using sklearn?",
+      "why_important": "Led to selecting LinearSVC with L1 penalty for the experiment."
+    },
+
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "How can I inspect the weight vector of a trained SVM model to measure sparsity?",
+      "why_important": "Allowed measurement of feature sparsity in the trained model."
+    },
+
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "How can I visualize feature importance using the SVM weight vector?",
+      "why_important": "Helped create visual evidence of feature importance."
+    },
+
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "What metric can be used for quick evaluation of an SVM model?",
+      "why_important": "Provided a way to verify that the trained model performs correctly."
+    }
+
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 2.2 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Pugazhendhi J",
+    "date": "2026-03-07"
+  }
+}
