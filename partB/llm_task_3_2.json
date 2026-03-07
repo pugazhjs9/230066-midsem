@@ -1,0 +1,143 @@
+{
+  "student_metadata": {
+    "name": "Pugazhendhi J",
+    "roll_number": "230066",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 3.2",
+    "submission_date": "2026-03-08"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+
+    {
+      "interaction_id": 1,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.2",
+      "purpose": "Designing a failure case analysis for the trained SVM model",
+      "prompt": "How can misclassified samples be analyzed in a machine learning experiment?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Code was implemented to identify misclassified samples using prediction errors.",
+      "how_it_helped": "Helped detect which samples the model predicted incorrectly.",
+      "student_verification": "Verified by comparing predicted labels with true labels.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 2,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.2",
+      "purpose": "Quantifying model errors",
+      "prompt": "How can error rate be calculated for a classification model?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Error rate was calculated using the fraction of incorrect predictions.",
+      "how_it_helped": "Helped measure the frequency of prediction errors.",
+      "student_verification": "Confirmed that error rate matches the number of misclassified samples.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 3,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.2",
+      "purpose": "Visualizing prediction errors",
+      "prompt": "How can prediction errors be visualized in a classification experiment?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "A simple plot of prediction errors across test samples was implemented.",
+      "how_it_helped": "Helped visualize where errors occur in the dataset.",
+      "student_verification": "Verified that error positions correspond to misclassified samples.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 4,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.2",
+      "purpose": "Identifying example misclassified samples",
+      "prompt": "How can specific misclassified examples be identified for further analysis?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Indices of misclassified samples were printed to inspect specific failure cases.",
+      "how_it_helped": "Allowed examination of individual prediction errors.",
+      "student_verification": "Confirmed that indices correspond to incorrect predictions.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 5,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.2",
+      "purpose": "Interpreting reasons for model failures",
+      "prompt": "What are common reasons why a linear SVM model might misclassify samples?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The discussion section was written explaining potential causes such as overlapping features and model limitations.",
+      "how_it_helped": "Helped structure the explanation of failure cases.",
+      "student_verification": "The explanations were aligned with the characteristics of the dataset and model.",
+      "confidence_level": 4
+    }
+
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "How can misclassified samples be analyzed in a machine learning experiment?",
+      "why_important": "Helped design the failure analysis approach."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "How can error rate be calculated for a classification model?",
+      "why_important": "Allowed quantitative measurement of model failures."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "How can prediction errors be visualized?",
+      "why_important": "Helped create a visual representation of errors."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "How can misclassified samples be identified?",
+      "why_important": "Helped examine individual failure cases."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "What are common reasons for misclassification in SVM?",
+      "why_important": "Helped interpret the observed errors."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.2 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Pugazhendhi J",
+    "date": "2026-03-08"
+  }
+}

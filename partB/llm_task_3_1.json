@@ -1,0 +1,149 @@
+{
+  "student_metadata": {
+    "name": "Pugazhendhi J",
+    "roll_number": "230066",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 3.1",
+    "submission_date": "2026-03-08"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+
+    {
+      "interaction_id": 1,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.1",
+      "purpose": "Understanding how to design an ablation experiment for the sparse SVM model",
+      "prompt": "How can I design an ablation study to evaluate the importance of L1 regularization in sparse SVM?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The experiment was structured by comparing two models: L1 sparse SVM and L2 regular SVM.",
+      "how_it_helped": "Helped design a controlled experiment to evaluate the effect of sparsity on model behavior.",
+      "student_verification": "The comparison setup was verified to ensure both models use the same dataset and preprocessing steps.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 2,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.1",
+      "purpose": "Selecting implementation method for sparse and regular SVM models",
+      "prompt": "How can L1 and L2 SVM models be implemented in sklearn for comparison?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Two LinearSVC models were implemented with penalty parameters set to L1 and L2 respectively.",
+      "how_it_helped": "Helped implement both model variants required for the ablation study.",
+      "student_verification": "Checked sklearn documentation to ensure correct parameters were used.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 3,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.1",
+      "purpose": "Measuring sparsity in trained SVM models",
+      "prompt": "How can the number of zero weights be used to measure sparsity in an SVM model?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Code was added to count zero weights and compute sparsity ratio for both models.",
+      "how_it_helped": "Allowed quantitative comparison of feature sparsity between L1 and L2 models.",
+      "student_verification": "Confirmed that L1 model produces significantly more zero weights.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 4,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.1",
+      "purpose": "Visualizing comparison results",
+      "prompt": "What visualization can be used to compare sparsity between two models?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "A bar chart was created to compare the number of zero weights between models.",
+      "how_it_helped": "Provided visual evidence of the difference in sparsity.",
+      "student_verification": "Verified that the visualization correctly reflects computed sparsity values.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 5,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 3.1",
+      "purpose": "Interpreting ablation study results",
+      "prompt": "How should the results of an ablation experiment comparing L1 and L2 SVM be interpreted?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The discussion section was written explaining how sparsity affects feature selection and model complexity.",
+      "how_it_helped": "Helped structure the interpretation of ablation results.",
+      "student_verification": "Checked that conclusions align with the observed experimental outputs.",
+      "confidence_level": 4
+    }
+
+  ],
+
+  "top_5_prompts": [
+
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "How can I design an ablation study for sparse SVM?",
+      "why_important": "Helped design the experimental comparison used in Task 3.1."
+    },
+
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "How can L1 and L2 SVM models be implemented using sklearn?",
+      "why_important": "Led to the implementation of two comparable models."
+    },
+
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "How can sparsity be measured in an SVM model?",
+      "why_important": "Helped quantify feature selection behavior."
+    },
+
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "What visualization can compare sparsity between models?",
+      "why_important": "Enabled visual comparison of ablation results."
+    },
+
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "How should ablation experiment results be interpreted?",
+      "why_important": "Helped write the final discussion section."
+    }
+
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.1 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Pugazhendhi J",
+    "date": "2026-03-08"
+  }
+}

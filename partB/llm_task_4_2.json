@@ -1,0 +1,143 @@
+{
+  "student_metadata": {
+    "name": "Pugazhendhi J",
+    "roll_number": "230066",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 4.2",
+    "submission_date": "2026-03-08"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+
+    {
+      "interaction_id": 1,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 4.2",
+      "purpose": "Understanding how LLM usage disclosure files should be structured",
+      "prompt": "Explain the required JSON structure for LLM disclosure files in the assignment instructions.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The structure was adapted to include the fields required by the instructions such as task_tag, code_used_verbatim and student_modification.",
+      "how_it_helped": "Helped ensure that every disclosure file follows the correct structure required for submission.",
+      "student_verification": "The final JSON structure was compared with the assignment instructions before creating the disclosure files.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 2,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 4.2",
+      "purpose": "Creating JSON templates for each task's disclosure file",
+      "prompt": "Generate a JSON template for LLM disclosure files that can be reused for tasks 1.1 to 4.2.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Separate JSON files were created for each task and the task tags were modified accordingly.",
+      "how_it_helped": "Helped generate consistent disclosure files for all tasks in Part B.",
+      "student_verification": "Verified that each JSON corresponds to the correct task number.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 3,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 4.2",
+      "purpose": "Ensuring prompts are mapped correctly to tasks",
+      "prompt": "How should prompts be logged and mapped to the correct task in LLM disclosure JSON files?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Prompts were categorized according to the task they helped with (e.g., Task 1 explanations, Task 2 code, Task 3 analysis).",
+      "how_it_helped": "Ensured that each disclosure file logs only prompts relevant to its corresponding task.",
+      "student_verification": "Cross-checked prompts against the conversation history to ensure correct mapping.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 4,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 4.2",
+      "purpose": "Selecting top prompts for each disclosure file",
+      "prompt": "How should the top 5 prompts section be selected from the interaction log?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "The most relevant prompts for each task were selected and listed in the top_5_prompts section.",
+      "how_it_helped": "Helped create meaningful summaries of the most important LLM interactions.",
+      "student_verification": "Checked that each top prompt corresponds to an interaction listed earlier in the file.",
+      "confidence_level": 4
+    },
+
+    {
+      "interaction_id": 5,
+      "date": "2026-03-08",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 4.2",
+      "purpose": "Final verification of all disclosure files",
+      "prompt": "Review my LLM disclosure JSON files and confirm that they satisfy the assignment requirements.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Minor adjustments were made to ensure the required fields are present in every JSON file.",
+      "how_it_helped": "Helped verify that the disclosure files meet the assignment format requirements.",
+      "student_verification": "Each JSON file was checked manually before final submission.",
+      "confidence_level": 5
+    }
+
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Explain the required JSON structure for LLM disclosure files in the assignment instructions.",
+      "why_important": "Ensured that all disclosure files follow the correct format."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Generate a JSON template for LLM disclosure files for tasks 1.1 to 4.2.",
+      "why_important": "Used to create consistent disclosure files."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "How should prompts be mapped to tasks in LLM disclosure JSON files?",
+      "why_important": "Helped correctly assign prompts to each task."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "How should the top 5 prompts be selected for each disclosure file?",
+      "why_important": "Helped construct the required top_5_prompts section."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "Review my LLM disclosure JSON files and confirm they meet the assignment requirements.",
+      "why_important": "Final verification before submission."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 4.2 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Pugazhendhi J",
+    "date": "2026-03-08"
+  }
+}
